@@ -3,7 +3,7 @@ import random
 if __name__ == '__main__':
 	rand = random.randint(1,10)
 	while True:	
-		in_num = input('Guess the number: ')
+		in_num = int(input('Guess the number: '))
 		if in_num == rand:
 			print('Correct!')
 			exit()
